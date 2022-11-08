@@ -6,7 +6,17 @@ This is a collection of various macroinstruction sets, scripts and examples for 
 - Overview of fasmg: http://flatassembler.net/docs.php?article=fasmg
 - Manual: http://flatassembler.net/docs.php?article=fasmg_manual
 
-## Building fixed fasmg on linux:
+## Using fixed (extended) fasmg
+
+```
+./fasmg_extended
+```
+x64 version:
+```
+./fasmg.x64_extended
+```
+
+## Building fixed fasmg from sources on linux:
 ```
 cd core
 ./build_extended.sh
