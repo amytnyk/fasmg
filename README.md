@@ -9,11 +9,11 @@ This is a collection of various macroinstruction sets, scripts and examples for 
 ## Using fixed (extended) fasmg
 
 ```
-./fasmg_extended
+./core/fasmg_extended
 ```
 x64 version:
 ```
-./fasmg.x64_extended
+./core/fasmg.x64_extended
 ```
 
 ## Building fixed fasmg from sources on linux:
