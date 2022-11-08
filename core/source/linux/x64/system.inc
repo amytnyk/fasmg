@@ -78,7 +78,7 @@ create:
 	push	rsi rdi
 	call	adapt_path
 	mov	esi,O_CREAT+O_TRUNC+O_WRONLY
-	mov	edx,S_IRUSR+S_IWUSR+S_IRGRP+S_IROTH
+	mov	edx,S_IXUSR+S_IRUSR+S_IWUSR+S_IRGRP+S_IROTH
 	mov	eax,2			; sys_open
 	syscall
 	pop	rdi rsi

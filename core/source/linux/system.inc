@@ -77,7 +77,7 @@ create:
 	call	adapt_path
 	mov	eax,5			; sys_open
 	mov	ecx,O_CREAT+O_TRUNC+O_WRONLY
-	mov	edx,S_IRUSR+S_IWUSR+S_IRGRP+S_IROTH
+	mov	edx,S_IXUSR+S_IRUSR+S_IWUSR+S_IRGRP+S_IROTH
 	int	0x80
 	pop	ebp edi esi
 	test	eax,eax
