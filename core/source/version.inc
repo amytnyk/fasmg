@@ -1,1 +1,1 @@
-VERSION equ "jmhx extended"
+VERSION equ "jmhx"
